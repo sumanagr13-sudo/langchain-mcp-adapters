@@ -211,7 +211,6 @@ Note: construct the client and call `get_tools()` (do not use `async with MultiS
 
 ```python
 import os
-import asyncio
 from langchain_mcp_adapters.client import MultiServerMCPClient
 from langchain.agents import create_agent
 
